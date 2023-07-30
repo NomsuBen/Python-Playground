@@ -44,3 +44,15 @@ for character in "Faith Olaniran":
 
 for number in range(20):
     print ("{:b}".format(number), end=", ")
+
+for i in range(23):
+    if i <=10:
+        print(i)
+        #break (When there is break the else statement will never execute)
+        continue
+    else:
+        print("Loop ended")
+
+    for i in range(12):
+        for j in range(12):
+            print("{} * {} = {}".format(i, j, (i * j)))
